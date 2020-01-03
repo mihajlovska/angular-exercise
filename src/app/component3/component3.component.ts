@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Component3Component implements OnInit {
 
+  iconName = 'android';
+  title = 'Endava';
+  align = 'flex-end';
+  background = 'aliceblue';
   constructor() { }
 
   ngOnInit() {

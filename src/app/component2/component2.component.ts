@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Component2Component implements OnInit {
 
+  iconName = 'menu';
+  title = 'Polar Cape';
+  align = 'center';
+  background = 'palevioletred';
   constructor() { }
 
   ngOnInit() {

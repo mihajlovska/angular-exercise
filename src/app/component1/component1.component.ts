@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Component1Component implements OnInit {
 
+  iconName = 'home';
+  title = 'IT Labs';
+  align = 'flex-start';
+  background = 'lightgrey';
   constructor() { }
 
   ngOnInit() {
