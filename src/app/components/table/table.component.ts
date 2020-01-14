@@ -1,9 +1,9 @@
 import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { MatSort, Sort  } from '@angular/material/sort';
-import { StarWarsService } from '../services/star-wars.service';
-import { StarWarsMember } from '../models/star-wars-member';
-import { StarWarsResponse } from '../models/star-wars-response';
+import { StarWarsService } from '../../services/star-wars/star-wars.service';
+import { StarWarsMember } from '../../models/star-wars-member';
+import { StarWarsResponse } from '../../models/star-wars-response';
 import { startWith, delayWhen, switchMap, catchError, takeUntil, map } from 'rxjs/operators';
 import { combineLatest, of, ReplaySubject, merge } from 'rxjs';
 

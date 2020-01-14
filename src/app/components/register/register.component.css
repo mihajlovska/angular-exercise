@@ -1,0 +1,13 @@
+#registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: lavender;
+    border-radius: 15px;
+}
+
+form{
+    width: 80%;
+}
